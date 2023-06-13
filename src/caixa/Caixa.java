@@ -16,17 +16,17 @@ public class Caixa {
 
     Scanner resposta = new Scanner(System.in);
 
-    public void credito(){
+    public void debito(){
         System.out.println("Quanto você deseja retirar?");
-        credito = resposta.nextDouble();
-        saldo = saldo - credito;
+        debito = resposta.nextDouble();
+        saldo = saldo - debito;
         System.out.println();
     }
 
-    public void debito(){
+    public void credito(){
         System.out.println("Quanto você deseja depositar?");
-        debito = resposta.nextDouble();
-        saldo = saldo + debito;
+        credito = resposta.nextDouble();
+        saldo = saldo + credito;
         System.out.println();
     }
 }

@@ -19,8 +19,8 @@ public class Main {
             System.out.println();
 
             System.out.println("Selecione o que deseja fazer (digite o número)");
-            System.out.println("1 - Crédito (sacar)");
-            System.out.println("2 - Débito (depositar)");
+            System.out.println("1 - Crédito (depositar)");
+            System.out.println("2 - Débito (sacar)");
             System.out.println("3 - Sair");
             int selecao = resposta.nextInt();
 
